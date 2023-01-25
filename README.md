@@ -11,3 +11,10 @@ Many bacterial species are not well studied and many more remain unknown to scie
 
 To test hypothesis, " Biodiversity " laboratory has sampled the navels of people across the country to identify bacterial species that colonize our belly buttons. Each person's identity is anonymous. They've instead been assigned an ID number. For this project I used " Biodiversity " microbiology laboratory data to create a dashboard with JS and Plotly.js that will allow researchers and those who participated in the study to select their ID numbers to see which bacterial species live in their navels. Who knows what they might find ?
 
+For purposes of this Analysis, several steps were taken :
+
+* Use of D3.json() to fetch external data
+* Use of functional programming in JavaScript to manipulate data
+* Use of event handlers in JavaScript to add interactivity to a data visualization
+* Create plots with Plotly, including bar chart, bubble chart, and gauge chart
+* Deploy an interactive chart to GitHub Pages
