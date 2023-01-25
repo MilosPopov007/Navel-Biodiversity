@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Belly Button Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light" >
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center" style="background-image: url(https://media.istockphoto.com/id/1359816888/photo/glass-cylinder-and-test-tube-science-equipment-in-blue-research-lab-background.jpg?b=1&s=170667a&w=0&k=20&c=5mMjjTO8SotnCkIluZhXV4aKMadvHc6OnqxlRlL73h8=);  background-size: cover;  ">
+        <h1>Belly Button Biodiversity Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <div class="col-md-8 article-p">
+      <p>
+        Many bacterial species are not well studied and many more remain unknown to science.
+         “ Biodiversity ” microbiology laboratory role is to discover and document these bacteria.
+          In particular,  “Biodiversity” is interested in bacterial species that have ability to synthesize proteins that taste like beef.<br><br>
+           “ Biodiversity “ has partnered with “ Improbable Beef ”, a food startup, to research candidates species.
+            Labs across the country have had success in synthesizing meat from algae, fungi, and microorganisms found on plant roots.
+             However “ Improbable beef ” is still searching for the elusive bacteria that will provide the perfect taste.<br>
+              “ Biodiversity ” laboratory  has a hypothesis that there's a microorganism that can supply the next best taste
+                and  believes it could be found quite close to home from bacteria found on the human body.
+                 The human body is a source of thousands of types of bacteria, and different parts of the body harbor different species.
+                  Bacteria found in the gut are not the same species that are found on a person's eyelashes, for example.
+                   Furthermore, between individuals, the bacterial species may vary even in the same location.
+                    “ Biodiversity ”  hypothesizes that the ideal bacterial species to make synthetic beef may be found in the belly button,
+                     or at least in someone's belly button.<br><br>
+                      To test  hypothesis,  “ Biodiversity ” laboratory  has sampled the navels of people across the country to identify bacterial species that colonize
+                       our belly buttons. Each person's identity is anonymous. They've instead been assigned an ID number.
+                        “ Biodiversity ” microbiology laboratory dashboard will allow fellow researchers and those who participated in the study
+                         to select their ID numbers to see which bacterial species live in their navels. Who knows what they might find?
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+        <p> <i>Test Subject Top 10 Bacteria Cultures Navel location Bar Chart</i></p>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+        <p> <center><i>Test Subject Scrubs Per Week Gauge Visualisation Chart</i></center></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+      <p> <center><i>Test Subject  Sample Values Bacteria Cultures Identification Label and Name Navel location Bubble Chart</i></center></p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="charts.js"></script>
+
+</body>
+
+</html>
