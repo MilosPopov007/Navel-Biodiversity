@@ -20,6 +20,10 @@ For purposes of this Analysis, several steps were taken :
 * Deploy an interactive chart to GitHub Pages
 
 
+
+![This is an image](https://github.com/MilosPopov007/Navel-Biodiversity/blob/main/milospopov007.github.io_Navel-Biodiversity_.png)
+
+
 [Chart.js](https://github.com/MilosPopov007/Navel-Biodiversity/blob/main/charts.js) code contains the code script that is a base of [HTML Navel-Biodiversity web page](https://github.com/MilosPopov007/Navel-Biodiversity/blob/main/index.html)
 
 Please join me in exploring the Future of Biodiversity    [https://milospopov007.github.io/Navel-Biodiversity/](https://milospopov007.github.io/Navel-Biodiversity/)
